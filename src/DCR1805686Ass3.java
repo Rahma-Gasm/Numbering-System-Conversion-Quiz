@@ -19,7 +19,7 @@ public class DCR1805686Ass3 {
         System.out.println("\t\t\t\t ************************************************");
         System.out.println("\t\t \t\t Welcome to the Numbering System Conversion Quiz!");
         System.out.println("\t\t\t\t ************************************************");
-        System.out.println("The quiz consists of 8 random question on converting between Decimal, Binary, and Hexadecimal"
+        System.out.println("The quiz consists of 8 random question on converting between Decimal, Binary, and Hexadecimal "
                 + "numbers. You have a maximum \nnumber of 3 trials per question.");
         System.out.println("");
         System.out.print("Please enter 1 to start the quiz or 0 to exit:");
@@ -57,7 +57,7 @@ public class DCR1805686Ass3 {
                     if (answer.equalsIgnoreCase(result)) {
                         System.out.println("");
                         System.out.println("\tCorrect Answer!");
-                        detailed_result += ("the equivalent Hexadecimal number of " + number + "is" + answer + ":correct\n");
+                        detailed_result += ("the equivalent Hexadecimal number of " + number + " is " + answer + ":correct\n");
                         correct_answer += 2;
                         break;
                     } else if (!answer.equalsIgnoreCase(result) && trials < 3) {
@@ -69,7 +69,7 @@ public class DCR1805686Ass3 {
                         continue;
                     } else {
                         System.out.println("\t Sorry, you have exceeded the maximum number of trials for this question!\n");
-                        detailed_result += "the equivalent Hexadecimal number of " + number + "is" + swap + ":wrong\n";
+                        detailed_result += "the equivalent Hexadecimal number of " + number + " is " + swap + ":wrong\n";
                         System.out.println("");
                         break;
                     }
@@ -100,7 +100,7 @@ public class DCR1805686Ass3 {
                     if (answer.equalsIgnoreCase(result)) {
                         System.out.println("");
                         System.out.println("\tCorrect Answer!");
-                        detailed_result += "the equivalent Binary number of " + number + " is" + answer+ ":correct\n";
+                        detailed_result += "the equivalent Binary number of " + number + " is " + answer+ ":correct\n";
                         correct_answer += 2;
                         break;
                     } else if (!answer.equalsIgnoreCase(result) && trials != 3) {
@@ -115,7 +115,7 @@ public class DCR1805686Ass3 {
                         System.out.println("");
                         System.out.println("\tSorry, you have exceededthe maximum number of trials for this question!");
                         System.out.println("");
-                        detailed_result += ("the equivalent Binary number of" + number + "is" + swap + ":wrong");
+                        detailed_result += ("the equivalent Binary number of" + number + " is " + swap + ":wrong");
                         System.out.println("");
                         break;
                     }
@@ -149,7 +149,7 @@ public class DCR1805686Ass3 {
                         System.out.println("");
                         System.out.println("\tCorrect Answer!");
                         System.out.println("");
-                        detailed_result += ("the equivalent Decimal number of result" + "is" + answer_2 + ":correct\n");
+                        detailed_result += ("the equivalent Decimal number of result" + " is " + answer_2 + ":correct\n");
                         correct_answer+= 2;
                         break;
                     } else if (answer_2 != number && trials != 3) {
@@ -165,7 +165,7 @@ public class DCR1805686Ass3 {
                         System.out.println("");
                         System.out.println("Sorry,you have exceeded the maximum number of trials for this question!");
                         System.out.println("");
-                        detailed_result += ("the equivalent Decimal number of " + result + "is" + enter + ":wrong\n");
+                        detailed_result += ("the equivalent Decimal number of " + result + " is " + enter + ":wrong\n");
                         break;
                     }
                 }
@@ -194,7 +194,7 @@ public class DCR1805686Ass3 {
                         System.out.println("");
                         System.out.println("Correct Answer!");                       
                         System.out.println("");
-                        detailed_result += ("the equivalent Decimal number of" + result + "is" + answer_2 + ":correct\n");
+                        detailed_result += ("the equivalent Decimal number of" + result + " is " + answer_2 + ":correct\n");
                         correct_answer += 2;
                         break;
                     } else if (answer_2 != number && trials != 3) {
@@ -209,7 +209,7 @@ public class DCR1805686Ass3 {
                         System.out.println("");
                         System.out.println("Sorry, you have exceeded the maximum number of trials for this question!");
                         System.out.println("");
-                        detailed_result+= ("the equivalent Decimal number of" + result + "is" + enter + ":wrong\n");
+                        detailed_result+= ("the equivalent Decimal number of" + result + " is " + enter + ":wrong\n");
                         break;
                     }
                 }
