@@ -1,4 +1,3 @@
-//Rahma shareef,1805686,rqassem@stu.kau.edu.sa,CPCS-202,DCR,Numbering Systems Conversion Quiz for High School Students,November11,2018
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
